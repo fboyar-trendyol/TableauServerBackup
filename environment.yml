@@ -1,0 +1,11 @@
+name: TableauServerBackup
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.4
+  - pip:
+    - tableauserverclient==0.7
+    - keyring==13.2.1
+    - GitPython==2.1.11
+    - keyrings.alt==3.1.1
